@@ -25,7 +25,7 @@ def speech_to_text():
         st.warning(f"Could not request results from Google Speech Recognition service; {e}")
 
 def text_to_speech(text, language):
-    tts = gTTS(text=text, lang=language)
+    tts = gTTS(text=text, lang=language, tld='com', slow=False)
     tts.save("response.mp3")
     st.audio("response.mp3")
 

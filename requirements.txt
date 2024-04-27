@@ -1,0 +1,11 @@
+streamlit
+streamlit-chat
+audio-recorder-streamlit
+SpeechRecognition
+gTTS
+langdetect
+pymongo
+pyaudio
+uuid
+google-generativeai
+python-dotenv

@@ -4,7 +4,6 @@ load_dotenv()  # loading all the environment variables
 import streamlit as st
 import os
 import uuid
-import sounddevice
 import google.generativeai as genai
 from streamlit_chat import message
 from audio_recorder_streamlit import audio_recorder

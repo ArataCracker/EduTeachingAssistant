@@ -5,7 +5,7 @@ SpeechRecognition
 gTTS
 langdetect
 pymongo
-portaudio
+python3-pyaudio
 uuid
 google-generativeai
 python-dotenv

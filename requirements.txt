@@ -8,3 +8,4 @@ pymongo
 uuid
 google-generativeai
 python-dotenv
+sounddevice

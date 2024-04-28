@@ -36,7 +36,7 @@ def main():
         db = client["chat_app"]
         users_collection = db["users"]
         
-        st.set_page_config(page_title="Teaching Assistant", layout="wide")
+        st.set_page_config(page_title="EDU-ASSIST Assistant", layout="wide")
 
         # Initialize session state for chat history if it doesn't exist
         if 'chat_history' not in st.session_state:
